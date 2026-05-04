@@ -47,6 +47,7 @@
       </a>
       <div class="hidden md:flex items-center gap-8 text-sm font-semibold text-brown">
         <a href="#menu"    class="hover:text-primary transition-colors duration-200 cursor-pointer">Menu</a>
+        <a href="#order"   class="hover:text-primary transition-colors duration-200 cursor-pointer">Order Online</a>
         <a href="#hours"   class="hover:text-primary transition-colors duration-200 cursor-pointer">Hours</a>
         <a href="#contact" class="hover:text-primary transition-colors duration-200 cursor-pointer">Contact</a>
       </div>
@@ -77,8 +78,11 @@
       </p>
       <p class="text-white/60 text-sm mb-10">Arrive early — we sell out!</p>
       <div class="flex flex-wrap gap-4 justify-center">
-        <a href="#menu" class="bg-red text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-redh transition-colors duration-200 cursor-pointer">
-          View Full Menu
+        <a href="#order" class="bg-red text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-redh transition-colors duration-200 cursor-pointer">
+          Order Online
+        </a>
+        <a href="#menu" class="bg-white/20 backdrop-blur-sm text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-white/30 transition-colors duration-200 cursor-pointer">
+          View Menu
         </a>
         <a href="tel:5405526706" class="border-2 border-white text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-white hover:text-brown transition-colors duration-200 cursor-pointer">
           540-552-6706
@@ -136,6 +140,44 @@
     </div>
     <div class="relative overflow-hidden h-64 md:h-80 group">
       <img src="CL4.jpg" alt="Carol Lee's Donuts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+    </div>
+  </section>
+
+  <!-- ORDER ONLINE -->
+  <section id="order" class="py-20 bg-cream">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <span class="text-primary font-semibold text-sm uppercase tracking-widest">Skip the Wait</span>
+      <h2 class="font-display text-5xl font-bold text-brown mt-3 mb-4">Order Online</h2>
+      <p class="text-brown/60 text-lg mb-10">Order ahead for pickup and your donuts will be ready when you arrive. Powered by Square.</p>
+
+      <div class="bg-white rounded-3xl p-10 border border-primary/10 shadow-sm">
+        <div class="flex flex-col items-center gap-6">
+          <!-- Square logo placeholder -->
+          <div class="flex items-center gap-3 text-brown/40">
+            <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24">
+              <rect x="2" y="2" width="20" height="20" rx="3"/>
+            </svg>
+            <span class="text-sm font-semibold uppercase tracking-widest">Powered by Square</span>
+          </div>
+
+          <p class="text-brown/50 text-sm max-w-sm">
+            Choose your donuts, select a pickup time, and pay securely online. It's that easy.
+          </p>
+
+          <!-- Placeholder button — replace href with Square ordering URL when ready -->
+          <a href="#"
+             class="inline-flex items-center gap-3 bg-primary text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-secondary transition-colors duration-200 cursor-pointer">
+            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"/>
+            </svg>
+            Start Your Order
+          </a>
+
+          <p class="text-brown/40 text-xs">
+            Prefer to call? <a href="tel:5405526706" class="text-primary hover:underline cursor-pointer">540-552-6706</a>
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 
