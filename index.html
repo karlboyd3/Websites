@@ -60,38 +60,29 @@
   </nav>
 
   <!-- HERO -->
-  <section class="min-h-screen pt-24 flex items-center bg-cream relative overflow-hidden">
-    <div class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-primary/10"></div>
-    <div class="absolute -bottom-24 -left-24 w-72 h-72 rounded-full bg-secondary/10"></div>
+  <section class="min-h-screen pt-24 flex items-center relative overflow-hidden" style="background-image: url('CL1.jpg'); background-size: cover; background-position: center;">
+    <!-- dark teal overlay -->
+    <div class="absolute inset-0 bg-brown/75"></div>
 
-    <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center py-16">
-      <div>
-        <span class="inline-block bg-primary/10 text-primary text-sm font-semibold px-4 py-1.5 rounded-full mb-6">
-          1414 North Main St · Blacksburg, VA
-        </span>
-        <h1 class="font-display text-6xl md:text-7xl font-bold text-brown leading-tight mb-6">
-          Fresh Donuts,<br/>
-          <span class="text-red">Every Morning.</span>
-        </h1>
-        <p class="text-lg text-brown/70 leading-relaxed mb-4 max-w-md">
-          Handcrafted donuts made fresh daily in the heart of Blacksburg. Open Tuesday through Sunday, 6:30am – 1:00pm.
-        </p>
-        <p class="text-brown/60 text-sm mb-10">Arrive early — we sell out!</p>
-        <div class="flex flex-wrap gap-4">
-          <a href="#menu" class="bg-primary text-cream px-8 py-4 rounded-full text-base font-semibold hover:bg-secondary transition-colors duration-200 cursor-pointer">
-            View Full Menu
-          </a>
-          <a href="tel:5405526706" class="border-2 border-primary text-primary px-8 py-4 rounded-full text-base font-semibold hover:bg-primary hover:text-cream transition-colors duration-200 cursor-pointer">
-            540-552-6706
-          </a>
-        </div>
-      </div>
-
-      <div class="flex justify-center">
-        <img src="Unknown.jpeg" alt="Carol Lee's Donuts" class="rounded-3xl shadow-2xl w-full max-w-md object-cover" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'"/>
-        <div class="hidden rounded-3xl bg-primary/10 w-full max-w-md h-80 items-center justify-center border-2 border-dashed border-primary/20">
-          <p class="text-primary/40 font-medium">Shop Photo</p>
-        </div>
+    <div class="relative z-10 max-w-4xl mx-auto px-6 text-center py-20">
+      <span class="inline-block bg-white/20 text-white text-sm font-semibold px-4 py-1.5 rounded-full mb-6 backdrop-blur-sm">
+        1414 North Main St · Blacksburg, VA
+      </span>
+      <h1 class="font-display text-6xl md:text-8xl font-bold text-white leading-tight mb-6">
+        Fresh Donuts,<br/>
+        <span class="text-accent">Every Morning.</span>
+      </h1>
+      <p class="text-lg text-white/80 leading-relaxed mb-4 max-w-xl mx-auto">
+        Handcrafted donuts made fresh daily in the heart of Blacksburg. Open Tuesday through Sunday, 6:30am – 1:00pm.
+      </p>
+      <p class="text-white/60 text-sm mb-10">Arrive early — we sell out!</p>
+      <div class="flex flex-wrap gap-4 justify-center">
+        <a href="#menu" class="bg-red text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-redh transition-colors duration-200 cursor-pointer">
+          View Full Menu
+        </a>
+        <a href="tel:5405526706" class="border-2 border-white text-white px-8 py-4 rounded-full text-base font-semibold hover:bg-white hover:text-brown transition-colors duration-200 cursor-pointer">
+          540-552-6706
+        </a>
       </div>
     </div>
   </section>
@@ -129,6 +120,22 @@
           <div class="text-cream/60 text-sm">Blacksburg, VA 24060</div>
         </div>
       </div>
+    </div>
+  </section>
+
+  <!-- PHOTO GALLERY -->
+  <section class="grid grid-cols-3">
+    <div class="relative overflow-hidden h-64 md:h-80 group">
+      <img src="CL2.jpg" alt="Carol Lee's Donuts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+    </div>
+    <div class="relative overflow-hidden h-64 md:h-80 group">
+      <img src="CL3.jpg" alt="Carol Lee's Donuts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
+      <div class="absolute inset-0 bg-primary/30 flex items-center justify-center">
+        <p class="font-display text-2xl md:text-3xl font-bold text-white text-center drop-shadow-lg px-4">Made Fresh<br/>Every Day</p>
+      </div>
+    </div>
+    <div class="relative overflow-hidden h-64 md:h-80 group">
+      <img src="CL4.jpg" alt="Carol Lee's Donuts" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"/>
     </div>
   </section>
 
@@ -439,8 +446,9 @@
   </section>
 
   <!-- HOURS & LOCATION -->
-  <section id="hours" class="py-24 bg-primary">
-    <div class="max-w-5xl mx-auto px-6">
+  <section id="hours" class="py-24 relative" style="background-image: url('CL5.jpg'); background-size: cover; background-position: center;">
+    <div class="absolute inset-0 bg-secondary/85"></div>
+    <div class="relative z-10 max-w-5xl mx-auto px-6">
       <div class="text-center mb-16">
         <span class="text-cream/60 font-semibold text-sm uppercase tracking-widest">Come See Us</span>
         <h2 class="font-display text-5xl font-bold text-cream mt-3">Hours &amp; Location</h2>
